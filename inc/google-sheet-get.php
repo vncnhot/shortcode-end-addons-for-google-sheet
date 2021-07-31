@@ -181,7 +181,7 @@ class Get_API_googlesheet {
                 if ($email) {
                 return $email;
                 } else {
-                  return __( 'Lỗi! điều này sẽ khiến bạn không thể dùng được API. Hãy hủy và lấy lại Code mới để kích hoạt.', 'webnganh' );
+                  return esc_html(__( 'Lỗi! điều này sẽ khiến bạn không thể dùng được API. Hãy hủy và lấy lại Code mới để kích hoạt.', 'webnganh' ));
                 }
             }		
         }
