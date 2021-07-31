@@ -1,0 +1,72 @@
+.iFntBoxAPI {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    border-left: 4px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 4%);
+    margin-top: 20px;
+    position: relative;
+    width: 29.983%;
+    float: left;
+}
+.iFntBoxAPI .Box-Input-API, .iFntBoxAPI .title {
+    padding: 0px 20px 0px 20px;
+}
+input:disabled {
+    background-color: rgb(235, 235, 228);
+}
+.iFntBoxAPI label {
+    line-height: 1.3;
+    font-weight: 600;
+    color: #23282d;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.about-del {
+    margin-top: 15px;
+    font-weight: 500;
+    color: #f00;
+}
+.loading-note-active {
+    display: none;
+}
+.loading {
+    display: block;
+}
+.Box-Input-API .get-account {
+    font-size: 18px;
+    font-weight: 500;
+    color: #f00;
+}
+.Box-Input-API .validation-message {
+    padding: 15px 0px;
+    display: block;
+    font-size: 16px;
+    color: #f00;
+    font-weight: 500;
+}
+.iFntBoxAPI .loading-note-active, .validation-message .valid-mess {
+    font-size: 15px;
+    color: #018209;
+    font-weight: 500;
+}
+.active {
+    display: block !important;
+}
+.Box-Input-API .validation-message {
+    display: none;
+}
+.Box-Input-API .box-list div {
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 38em) { 
+    .iFntBoxAPI {
+        width: 100%;
+        max-width: 100%;
+    }
+    .iFntBoxAPI label {
+        margin-bottom: 10px;
+        width: 100%;
+        display: block;
+    }
+
+}
