@@ -8,7 +8,6 @@ Version: 1.0.1
 Author: inFinity
 Author URI: https://webnganh.vn/
 Text Domain: webnganh
-Domain Path: /languages
 Tags: WebNganh.Vn, WebNganh.Com, iFnt.Vn
 Tested up to: 5.7.2
 Requires PHP: 5.6
