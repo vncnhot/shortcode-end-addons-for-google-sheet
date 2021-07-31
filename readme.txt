@@ -18,7 +18,7 @@ Send your Contact Form 7 data directly to your Google Sheets spreadsheet API.
 Plugins by Viet Nam : https://webnganh.vn/ - https://ifnt.vn/
 
 = Demo =
-Link demo:&nbsp;<a href="http://shop.okechua.com/test/" target="_blank">http://shop.okechua.com/test/</a>
+Link demo: <a href="http://shop.okechua.com/test/" target="_blank">http://shop.okechua.com/test/</a>
 
 Google Sheet to Check submitted Data link<br><a href="https://docs.google.com/spreadsheets/d/1UEoqhqtSRnMOTnuHSo5XMteKPLS5jrLBUUfURJ-mr9Y/" target="_blank">https://docs.google.com/spreadsheets/d/1UEoqhqtSRnMOTnuHSo5XMteKPLS5jrLBUUfURJ-mr9Y/</a>
 
