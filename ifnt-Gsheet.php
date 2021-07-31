@@ -166,7 +166,7 @@ class iFnt_Gsheet_Free {
             <div class="Box-Input-API">
                 <div class="box-list">
                     <div><b><?php echo esc_html( __( 'Email:', 'webnganh' ) ); ?></b> <?php echo esc_html( __( 'info@webnganh.vn', 'webnganh' ) ); ?></div>
-                    <div><b><?php echo esc_html( __( 'Ủng hộ:', 'webnganh' ) ); ?></b> <a href="https://paypal.me/tvtoske">https://paypal.me/tvtoske</a> <?php echo esc_html( __( '( Hãy ủng hộ để chúng tôi có động lực phát triển thêm )', 'webnganh' ) ); ?></div>
+                    <div><b><?php echo esc_html( __( 'Ủng hộ:', 'webnganh' ) ); ?></b> <a href="https://paypal.me/tvtoske"><?php echo esc_html( __( 'https://paypal.me/tvtoske', 'webnganh' ) ); ?></a> <?php echo esc_html( __( '( Hãy ủng hộ để chúng tôi có động lực phát triển thêm )', 'webnganh' ) ); ?></div>
                 </div>
             </div>
         </div>
