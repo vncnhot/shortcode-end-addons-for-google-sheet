@@ -146,6 +146,7 @@ class Gsheet_Service {
          "Gsheet-tab-gid-cf7" => ""
           
       );
+      // sanitize the input data POST gsheet-cf7
       $get_code = sanitize_text_field( $_POST["gsheet-cf7"] );
       $sheet_data = isset( $get_code ) ? $get_code : $default;
       update_post_meta( $post->id(), 'Gsheet_settings', $sheet_data );
