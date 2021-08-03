@@ -55,9 +55,9 @@ class iFnt_Gsheet_Free {
     public function autorun_on_upgrade() {
         $plugin_options = get_site_option( 'google_sheet_info' );
         
-        if ($plugin_options['version'] <= "3.0") {
+       // if ($plugin_options['version'] <= "3.0") {
            //$this->upgrade_database_40();
-        }
+       // }
   
         // update the version value
         $google_sheet_info = array(
