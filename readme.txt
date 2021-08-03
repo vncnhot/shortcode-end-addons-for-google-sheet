@@ -22,7 +22,7 @@ Link demo: <a href="http://shop.okechua.com/test/" target="_blank">http://shop.o
 
 Google Sheet to Check submitted Data link<br><a href="https://docs.google.com/spreadsheets/d/1UEoqhqtSRnMOTnuHSo5XMteKPLS5jrLBUUfURJ-mr9Y/" target="_blank">https://docs.google.com/spreadsheets/d/1UEoqhqtSRnMOTnuHSo5XMteKPLS5jrLBUUfURJ-mr9Y/</a>
 
-= Version 1.0.1 =
+= Version 1.0.2 =
 Dev Version loading ....
 
 == Frequently Asked Questions ==
