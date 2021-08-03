@@ -4,7 +4,7 @@ Plugin Name: ShortCode & Addons For Google Sheets
 Plugin URI: https://webnganh.vn
 Description: Công cụ hỗ trợ API Google Sheet Row được chia sẻ bởi inFinity Technology
 Contributors: webnganh, ifnt
-Version: 1.0.1
+Version: 1.0.2
 Author: inFinity
 Author URI: https://webnganh.vn/
 Text Domain: webnganh
@@ -18,8 +18,8 @@ Donate link: https://webnganh.vn
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
-define('iFnt_Gsheet_Version', '1.0.1' );
-define('iFnt_Gsheet_DB_Version', '1.0.1' );
+define('iFnt_Gsheet_Version', '1.0.2' );
+define('iFnt_Gsheet_DB_Version', '1.0.2' );
 define('iFnt_Gsheet_DIR', plugin_dir_path(__FILE__));
 define('iFnt_Gsheet_URL', plugins_url('/', __FILE__));
 define('iFnt_Gsheet_Root', dirname( __FILE__ ) );
