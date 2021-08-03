@@ -14,20 +14,21 @@ if ( ! defined( 'ABSPATH' ) ) {
 <div class="wrap">
 	<?php
        $tabs = array(  
-        'setting-api' => __( 'Cài đặt kết nối', 'GsiFnt' ),
+        'setting-api' => esc_html(__( 'Cài đặt kết nối', 'GsiFnt' )),
        //  'support' => __( 'Hỗ trợ', 'GsiFnt' ),
         // 'faq' => __( 'FAQ', 'GsiFnt' ),
         // 'demos' => __( 'Ví dụ', 'GsiFnt' ),
         // 'system-status' => __( 'Trạng thái hệ thống', 'GsiFnt' ),
          );
-       echo '<div id="icon-themes" class="icon32"><br></div>';
-       echo '<h2 class="nav-tab-wrapper">';
-       foreach( $tabs as $tab => $name ){
+       ?><div id="icon-themes" class="icon32"><br></div>
+      <h2 class="nav-tab-wrapper">
+       <?php foreach( $tabs as $tab => $name ){
            $class = ( $tab == $active_tab ) ? ' nav-tab-active' : '';
-           echo "<a class='nav-tab$class' href='?page=Gsheet-config-API&tab=$tab'>$name</a>";
-
-       }
-       echo '</h2>';
+           ?> <a class='nav-tab<?php echo esc_html(__( $class, '')); ?>' href='?page=Gsheet-config-API&tab=<?php echo esc_html(__( $tab, '')); ?>'><?php echo esc_html(__( $name, '')); ?></a> 
+		   <?php
+       } ?> 
+		</h2> 
+		<?php
    	switch ( $active_tab ){
         case 'setting-api' :
    		   $gs_intigrate = new iFnt_Gsheet_Free();
